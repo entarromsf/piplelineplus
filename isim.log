@@ -1,0 +1,26 @@
+ISim log file
+Running: E:\ise project\P6\vegitabalecpu\piplelineplus\test_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb E:/ise project/P6/vegitabalecpu/piplelineplus/test_isim_beh.wdb 
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+WARNING: File "E:/ise project/P6/vegitabalecpu/piplelineplus/mips.v" Line 16.  For instance uut/CMPResultReg_E/, width 32 of formal port dIn is not equal to width 1 of actual signal cmpResult.
+WARNING: File "E:/ise project/P6/vegitabalecpu/piplelineplus/mips.v" Line 19.  For instance uut/CMPResultReg_E/, width 32 of formal port dOut is not equal to width 1 of actual signal cmpResult_E.
+WARNING: File "E:/ise project/P6/vegitabalecpu/piplelineplus/mips.v" Line 19.  For instance uut/CMPResultReg_M/, width 32 of formal port dIn is not equal to width 1 of actual signal cmpResult_E.
+WARNING: File "E:/ise project/P6/vegitabalecpu/piplelineplus/mips.v" Line 27.  For instance uut/CMPResultReg_M/, width 32 of formal port dOut is not equal to width 1 of actual signal cmpResult_M.
+WARNING: File "E:/ise project/P6/vegitabalecpu/piplelineplus/mips.v" Line 27.  For instance uut/CMPResultReg_W/, width 32 of formal port dIn is not equal to width 1 of actual signal cmpResult_M.
+WARNING: File "E:/ise project/P6/vegitabalecpu/piplelineplus/mips.v" Line 34.  For instance uut/CMPResultReg_W/, width 32 of formal port dOut is not equal to width 1 of actual signal cmpResult_W.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+                 110@00003000: $ 1 <= 12340000
+                 130@00003004: $ 1 <= 12345678
+                 150@00003008: $ 1 <= 12230000
+                 170@0000300c: $ 3 <= 12234500
+                 170@00003010: *00000000 <= 12230000
+                 210@00003014: $ 2 <= 12230000
+                 350@0000301c: $ 4 <= 00000000
